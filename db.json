@@ -1,14 +1,357 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "version": {
+        "success": true,
+        "version": "0.1"
+    },
+  "properties": [
+    {
+        "_id": "54_60000406_0.1",
+        "id": "54",
+        "propertiesParent": [
+            {
+                "title": "BaseQuantities",
+                "values": [
+                    {
+                        "name": "Width",
+                        "value": "0.05000000000000000278",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GrossFootprintArea",
+                        "value": "0.03600001299999999738",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Length",
+                        "value": "10.58999999999999985789",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "NetVolume",
+                        "value": "0.38124014000000000513",
+                        "unit": "m3",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Height",
+                        "value": "0.72000026999999999777",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "NetWeight",
+                        "value": "686.23225000000002182787",
+                        "unit": "kg",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "MethodOfMeasurement",
+                        "value": "",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    }
+                ]
+            },
+            {
+                "title": "Reference Bim Properties",
+                "values": [
+                    {
+                        "name": "OBJECTTYPE",
+                        "value": "5*72",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "TAG",
+                        "value": "TS_4351",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "PREDEFINEDTYPE",
+                        "value": "NOTDEFINED",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Description",
+                        "value": "5*72",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Source",
+                        "value": "Unknown",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Definition",
+                        "value": "IFCWALLSTANDARDCASE",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Part Number",
+                        "value": "komin",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GUID",
+                        "value": "1EOEKw0001YJ4pCJGvDpSv",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    }
+                ]
+            },
+            {
+                "title": "Tekla_General",
+                "values": [
+                    {
+                        "name": "Name",
+                        "value": "komin",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Profile",
+                        "value": "5*72",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Grade",
+                        "value": "cegla pelna",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Finish",
+                        "value": "",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Class",
+                        "value": "9",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Phase",
+                        "value": "7.00000000000000000000",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Preliminary_Mark",
+                        "value": "",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Assembly_Mark",
+                        "value": "W68",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Part_Mark",
+                        "value": "Beton_W-162",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    }
+                ]
+            },
+            {
+                "title": "Tekla_Quantities",
+                "values": [
+                    {
+                        "name": "CogZ",
+                        "value": "2.47500000000000008882",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "CogY",
+                        "value": "8.30501950000000022101",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "CogX",
+                        "value": "7.23999849999999955941",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Bottom_Elevation",
+                        "value": " -2.820",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Top_Elevation",
+                        "value": " +7.770",
+                        "unit": "",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "EndZ",
+                        "value": "-2.81999999999999984013",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "StartZ",
+                        "value": "-2.81999999999999984013",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "EndY",
+                        "value": "8.30501950000000022101",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "StartY",
+                        "value": "8.30501950000000022101",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "EndX",
+                        "value": "7.59999860000000015958",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "StartX",
+                        "value": "6.87999840000000073559",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "NetWeight",
+                        "value": "686.23225000000002182787",
+                        "unit": "kg",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GrossWeight",
+                        "value": "686.23225000000002182787",
+                        "unit": "kg",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Weight",
+                        "value": "686.23225000000002182787",
+                        "unit": "kg",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Height",
+                        "value": "0.72000026999999999777",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Width",
+                        "value": "0.05000000000000000278",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "Length",
+                        "value": "10.58999999999999985789",
+                        "unit": "m",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "NetVolume",
+                        "value": "0.38124014000000000513",
+                        "unit": "m3",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GrossVolume",
+                        "value": "0.38124014000000000513",
+                        "unit": "m3",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "NetSideAreaGlobalYZ",
+                        "value": "0.52949999999999997069",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GrossSideAreaGlobalYZ",
+                        "value": "0.52949999999999997069",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "NetSideAreaGlobalXZ",
+                        "value": "7.62480280000000032459",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GrossSideAreaGlobalXZ",
+                        "value": "7.62480280000000032459",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "NetSideAreaGlobalXY",
+                        "value": "0.03600001299999999738",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GrossSideAreaGlobalXY",
+                        "value": "0.03600001299999999738",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GrossFootprintArea",
+                        "value": "0.03600001299999999738",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "AreaPerTons",
+                        "value": "23.87035200000000045861",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "NetArea",
+                        "value": "16.38060600000000022192",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    },
+                    {
+                        "name": "GrossArea",
+                        "value": "16.38060600000000022192",
+                        "unit": "m2",
+                        "type": "REFERENCE"
+                    }
+                ]
+            }
+        ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "viewer_data": {
+        "success": true,
+        "name": "maison.ifc",
+        "url": "https://sandbox2.axxone.fr/system_aplus/api/vieweraxeo/download/60000406?version=0.1"
+    }
 }
